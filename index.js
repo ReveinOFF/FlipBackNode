@@ -5,10 +5,10 @@ import cors from "cors";
 import path from "path";
 import * as uuid from "uuid";
 
-import { registerValidator } from "./validations/auth.js";
-import * as AccountController from "./controllers/AccountController.js";
-import * as UserController from "./controllers/UserController.js";
-import checkAuth from "./utils/checkAuth.js";
+import { registerValidator } from "./Validations/auth.js";
+import * as AccountController from "./Controllers/AccountController.js";
+import * as UserController from "./Controllers/UserController.js";
+import checkAuth from "./Utils/checkAuth.js";
 
 import * as dotenv from "dotenv";
 dotenv.config();

@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import { validationResult } from "express-validator";
 import nodeMailer from "nodemailer";
 
-import UserModel from "../models/User.js";
+import UserModel from "../Models/UserModels/User.js";
 
 import * as dotenv from "dotenv";
 dotenv.config();
